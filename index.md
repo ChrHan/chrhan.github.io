@@ -1,5 +1,5 @@
 ---
-title: "Welcome to my blog"
+title: "Blogging with GitHub Pages"
 ---
 
-I'm glad you are here. I plan to talk about ...
+Initial test for GitHub Pages - will add more contents in the future...
