@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Workaround on multiple GitLab.com account and Private Terraform Module"
-date: 2022-08-28 20:00:00
+date: 2022-08-27 10:00:00
 categories: gitlab terraform
+tags: gitlab terraform
+
 ---
 
 # The Problem
