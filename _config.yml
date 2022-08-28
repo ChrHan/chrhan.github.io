@@ -11,4 +11,4 @@ github_username:  ChrHan # DO NOT include the @ character, or else the build wil
 google_analytics: UA-40305679-1
 
 show_excerpts: true # set to false to remove excerpts on the homepage
-theme: minima
+theme: minimal
