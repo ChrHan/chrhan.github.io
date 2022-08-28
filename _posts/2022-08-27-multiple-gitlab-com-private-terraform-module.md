@@ -7,7 +7,7 @@ tags: gitlab terraform
 
 ---
 
-# The Problem
+## Background
 
 When you have multiple credential of GitLab.com and you want to separate SSH keys used, there is no out-of-the-box / simple solution.
 
@@ -17,7 +17,13 @@ Your options are:
 
 This article assumes that you are using option 2, with addition of Terraform Modules on private repositories
 
+## Problem faced
+
 When git configs are separated and Terraform needs to load modules from private repository, Terraform will perform `ssh` command, which will not use Overriden local git config
+
+This will lead to `terraform` failing with an obscure error, and the root cause is failed authentication by git as it might not use the correct SSH key.
+
+## Solution
 To prevent this issue, you need to add the following command before invoking `terraform`:
 
 ```
