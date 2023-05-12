@@ -15,6 +15,7 @@ show_excerpts: true # set to false to remove excerpts on the homepage
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
+- jekyll-feed
 
 # https://github.com/github/pages-gem/issues/399#issuecomment-301827749
 # When running locally, we run into the following error —
