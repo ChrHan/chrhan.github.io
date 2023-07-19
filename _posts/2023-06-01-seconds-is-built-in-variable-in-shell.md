@@ -1,8 +1,8 @@
 ---
 layout: post
 title: SECONDS is built-in variable in shell
-categories: Shell
-tags: Shell
+categories: Shell TIL
+tags: Shell TIL
 date: 2023-06-01 15:14 +0900
 ---
 Today I Learned that `SECONDS` is indeed a built-in variable in shell when trying to time startup of Docker....
