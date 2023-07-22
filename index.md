@@ -1,5 +1,6 @@
 ---
 title: "Blogging with GitHub Pages"
+layout: home
 ---
 
 This space will be filled by some thoughts on DevOps, tips on CLI stuff, and other contents

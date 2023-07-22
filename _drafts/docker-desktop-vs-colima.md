@@ -9,3 +9,8 @@ title: Docker Desktop vs Colima
 4. benchmark
   1. start time
   2. workload (create script for this)
+
+references:
+https://github.com/abiosoft/colima
+https://github.com/kubernetes/minikube/issues/11725
+https://github.com/pixie-io/pixie/issues/567
