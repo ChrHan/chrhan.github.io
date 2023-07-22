@@ -11,11 +11,11 @@ Today I Learned that `SECONDS` is indeed a built-in variable in shell when tryin
 
 Initial idea is to create a script which:
 1. Run `docker ps`
-2. Check if exit code of (1) is not 0
-  1. If not 0:
-    1. `sleep` for 1 second
-    2. Increment timer
-  2. If 0, exit loop
+2. Check `if` exit code of (1) is not `0`
+    1. `if not 0`:
+        1. `sleep` for `1` second
+        2. Increment timer
+    2. If `0`, exit loop
 3. Post final timer
 
 As I did not know `SECONDS` variable is used as a built-in variable for timer, this is the initial script that I wrote:
@@ -39,7 +39,7 @@ As I did not know `SECONDS` variable is used as a built-in variable for timer, t
     echo "${SECONDS} seconds passed until docker ps succeeds!"
 ```
 
-Upon running this script, I found out that my seconds incremented two times instead of 1 time, with the following log sample:
+Upon running this script, I found out that my `SECONDS` incremented **two** times instead of **1** time, with the following log sample:
 ```
 Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
 1 seconds passed so far...
@@ -69,7 +69,7 @@ This variable expands to the number of seconds since the shell was started. Assi
 
 
 Which comes to conclusion of:
-1. `SECONDS` variable is doing the timer for me
+1. `SECONDS` variable is doing the timer for me, available built-in
 2. if (1) is the case, then I can use `SECONDS` in any part of the code directly!
 
 Final script can be found on this [GitHub link](https://github.com/ChrHan/personal-scripts/blob/main/docker-ps-timer.sh):

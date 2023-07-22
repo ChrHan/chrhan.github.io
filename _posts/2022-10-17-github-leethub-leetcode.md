@@ -10,5 +10,6 @@ thumbnail-img: "/assets/images/leetcode.svg"
 
 Found a very useful app to track your LeetCode and contribute to your GitHub repo at the same time - [LeetHub](https://github.com/QasimWani/LeetHub) is the answer!
 
-Install chrome extension using the following link: https://chrome.google.com/webstore/detail/leethub/aciombdipochlnkbpcbgdpjffcfdbggi/related
+Install chrome extension using the following [link](https://chrome.google.com/webstore/detail/leethub/aciombdipochlnkbpcbgdpjffcfdbggi/related)
+
 Once installed, log in to your GitHub account and start tracking LeetCode problems as Git repository!
