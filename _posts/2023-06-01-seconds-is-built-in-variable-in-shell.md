@@ -4,6 +4,8 @@ title: SECONDS is built-in variable in shell
 categories: Shell TIL
 tags: Shell TIL
 date: 2023-06-01 15:14 +0900
+cover-img: ["/assets/images/bash.svg"]
+thumbnail-img: "/assets/images/bash.svg"
 ---
 Today I Learned that `SECONDS` is indeed a built-in variable in shell when trying to time startup of Docker....
 

@@ -4,6 +4,8 @@ title: 1Password Integration with PritunlVPN (OpenVPN)
 categories: 2FA 1Password PritunlVPN OpenVPN
 tags: 2FA 1Password PritunlVPN OpenVPN
 date: 2023-05-19 15:57 +0900
+cover-img: ["/assets/images/1password.png"]
+thumbnail-img: "/assets/images/1password.png"
 ---
 ![1Password](/assets/images/1password.png) ![PritunlVPN](/assets/images/pritunlvpn.png)
 

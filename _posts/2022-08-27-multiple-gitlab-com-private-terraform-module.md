@@ -4,7 +4,8 @@ title: "Workaround on multiple GitLab.com account and Private Terraform Module"
 date: 2022-08-27 10:00:00
 categories: gitlab terraform
 tags: gitlab terraform
-
+cover-img: ["/assets/images/gitlab.svg"]
+thumbnail-img: "/assets/images/gitlab.svg"
 ---
 
 ## Background

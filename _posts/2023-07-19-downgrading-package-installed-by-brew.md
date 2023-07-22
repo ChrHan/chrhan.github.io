@@ -4,6 +4,8 @@ title: Downgrading package installed by brew
 categories: Shell brew TIL
 tags: Shell brew TIL
 date: 2023-07-19 17:59 +0900
+cover-img: ["/assets/images/homebrew.svg"]
+thumbnail-img: "/assets/images/homebrew.svg"
 ---
 # Intro/Rant
 ![Homebrew](/assets/images/homebrew.svg) 
