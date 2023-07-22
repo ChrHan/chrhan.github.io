@@ -4,7 +4,8 @@ title: "Restoring CloudSQL to Local Database"
 date: 2022-09-09 23:50:00
 categories: gcp cloudsql
 tags: gcp cloudsql
-
+cover-img: ["/assets/images/gcp-cloudsql.webp"]
+thumbnail-img: "/assets/images/gcp-cloudsql.webp"
 ---
 
 ## Background
